@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Test Routing Page</title>
+    </head>
+    <body>
+        <h1>Test page</h1>
+        <p>This is a test page to demonstrate node express requests returning a html page.</p>
+
+        <h2>Use Get form action</h2>
+        <form action="/name" method="get" target="_blank">
+            First name:<br>
+            <input type="text" name="firstname" placeholder="Joe" value="Gearoid">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname" placeholder="Bloggs" value="Reilly">
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+
+        <h2>Use Post form action</h2>
+        <form action="/name" method="post" target="_blank">
+            First name:<br>
+            <input type="text" name="firstname" placeholder="Joe" value="Gearoid">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname" placeholder="Bloggs" value="Reilly">
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+
+    </body>
+</html>
